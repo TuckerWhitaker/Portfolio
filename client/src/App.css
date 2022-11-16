@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(40, 40, 40);
+}
+
+.ProjectContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+

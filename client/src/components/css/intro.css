@@ -1,0 +1,17 @@
+.Intro{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.IntroTitle{
+    margin: 0;
+}
+
+.Summary{
+    margin-top: 1vh;
+    font-size: 1vw;
+    width: 30vw;
+}
