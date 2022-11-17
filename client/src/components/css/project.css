@@ -1,9 +1,103 @@
-.project{
-    width: 30vw;
-    height: 20vh;
+.project {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-evenly;
+	width: 30%;
+	height: 50%;
+	margin: 3%;
+	border-color: white;
+	border-radius: 1vw;
+	border-width: 0.1vw;
+	border-style: solid;
+	color: white;
 }
 
-.ProjectImage{
-    width: 75%;
-    height: 75%;
+.Columns {
+	width: 100%;
+	height: 90%;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-evenly;
+}
+
+.ImageColumn {
+	width: 50%;
+	height: 100%;
+}
+
+.InfoColumn {
+	width: 50%;
+	height: 100%;
+}
+
+.ProjectTitle {
+	font-size: 3vw;
+}
+
+.ProjectImage {
+	width: 100%;
+	height: 50%;
+	border-radius: 0.1vw;
+	border-style: solid;
+	border-color: transparent;
+}
+
+.ProjectDescription {
+	font-size: 0.85vw;
+	margin: 1vh;
+	text-align: left;
+}
+
+.ButtonContainer {
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+	height: 10%;
+}
+
+.ProjectButton {
+	width: 10vw;
+	height: 4vh;
+	font-size: 0.75vw;
+	margin: 15px;
+	background-color: transparent;
+	color: white;
+	border-style: solid;
+	transition-duration: 500ms;
+}
+
+#GithubBtn {
+	border-color: rgb(205, 24, 255);
+}
+#GithubBtn:hover {
+	cursor: pointer;
+	border-color: rgb(255, 255, 255);
+	background-color: rgb(205, 24, 255);
+}
+
+#LiveBtn {
+	border-color: rgb(255, 25, 0);
+}
+#LiveBtn:hover {
+	cursor: pointer;
+	border-color: rgb(255, 255, 255);
+	background-color: rgb(255, 25, 0);
+}
+
+.TagContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.tag {
+	font-size: 0.75vw;
+	margin: 0.2vw;
+	background-color: transparent;
+	border-width: 1px;
+	border-radius: 5px;
+	border-style: solid;
+	width: 6vw;
 }

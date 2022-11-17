@@ -1,14 +1,19 @@
 .App {
-  text-align: center;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgb(40, 40, 40);
+	text-align: center;
+	width: 99.22vw;
+	height: 500vh;
+	background-image: linear-gradient(rgb(31, 31, 31), rgb(75, 75, 75));
 }
 
-.ProjectContainer{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+.ProjectContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
 }
 
+.Title {
+	color: white;
+	font-weight: 500;
+	font-size: 2vw;
+}

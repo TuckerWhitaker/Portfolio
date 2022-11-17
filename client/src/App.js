@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="App">
       <Intro></Intro>
+      <h1 className="Title">Projects: </h1>
       <div className="ProjectContainer">
         <Project />
         <Project />
