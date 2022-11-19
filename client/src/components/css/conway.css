@@ -4,3 +4,9 @@
 	align-items: center;
 	justify-content: center;
 }
+
+canvas {
+	width: 100vw;
+	height: 100vw;
+	image-rendering: pixelated;
+}

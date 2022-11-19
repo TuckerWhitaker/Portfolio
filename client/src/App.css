@@ -3,6 +3,7 @@
 	width: 99.22vw;
 	height: 500vh;
 	background-image: linear-gradient(rgb(31, 31, 31), rgb(75, 75, 75));
+	overflow-x: hidden;
 }
 
 .ProjectContainer {
