@@ -1,15 +1,21 @@
 import "./css/conway.css";
 import React, { useState } from "react";
-let w = 200;
+import { useEffect } from "react";
+let w = 100;
+let h = 300;
 let G = 0;
 
 function Conway() {
+	useEffect(() => {
+		Con();
+	}, []);
+
 	const Con = () => {
 		let state = [];
 		for (let i = 0; i < w; i++) {
 			state.push([]);
 
-			for (let j = 0; j < w; j++) {
+			for (let j = 0; j < h; j++) {
 				if (Math.floor(Math.random() * 11) > 8) {
 					state[i].push(1);
 				} else {
@@ -20,7 +26,7 @@ function Conway() {
 
 		async function update() {
 			for (let i = 0; i < w; i++) {
-				for (let j = 0; j < w; j++) {
+				for (let j = 0; j < h; j++) {
 					if (state[i][j] == 0) {
 						ctx.clearRect(i, j, 1, 1);
 					} else if (state[i][j] == 1) {
@@ -41,10 +47,10 @@ function Conway() {
 			}
 
 			for (let i = 0; i < w; i++) {
-				for (let j = 0; j < w; j++) {
+				for (let j = 0; j < h; j++) {
 					let n = 0;
 
-					if (i == 0 || i == w - 1 || j == 0 || j == w - 1) {
+					if (i == 0 || i == w - 1 || j == 0 || j == h - 1) {
 						newstate[i][j] = 0;
 					} else {
 						n += state[i + 1][j];
@@ -71,19 +77,6 @@ function Conway() {
 				}
 			}
 
-			/*for (let i = 0; i < w; i++) {
-				for (let j = 0; j < w; j++) {
-					if (state[i][j] == 0) {
-						ctx.fillStyle = "#000000";
-						ctx.fillRect(i, j, 1, 1);
-					} else if (state[i][j] == 1) {
-						//white
-						ctx.fillStyle = "#FFFFFF";
-						ctx.fillRect(i, j, 1, 1);
-					}
-				}
-			}*/
-
 			await delay(100);
 			state = newstate;
 			G++;
@@ -107,14 +100,7 @@ function Conway() {
 
 	return (
 		<div className="Parent">
-			<button
-				onClick={() => {
-					Con();
-				}}
-			>
-				Click
-			</button>
-			<canvas id="Canvas" width={w} height={w}></canvas>
+			<canvas id="Canvas" width={w} height={h}></canvas>
 		</div>
 	);
 }

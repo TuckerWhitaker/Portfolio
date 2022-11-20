@@ -3,7 +3,7 @@ import "./css/intro.css";
 function intro() {
 	return (
 		<div className="Intro">
-			<h1 className="IntroTitle">Tucker Whitaker</h1>
+			<div className="IntroTitle">Tucker Whitaker</div>
 			<div className="Summary">
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Arcu dictum varius

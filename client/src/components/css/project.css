@@ -6,11 +6,17 @@
 	width: 30%;
 	height: 50%;
 	margin: 3%;
-	border-color: white;
+	border-color: rgb(101, 101, 101);
 	border-radius: 1vw;
 	border-width: 0.1vw;
 	border-style: solid;
 	color: white;
+	background-color: rgb(50, 50, 50, 0.9);
+	transition-duration: 0.5s;
+}
+
+.project:hover {
+	background-color: rgb(50, 50, 50, 1);
 }
 
 .Columns {
