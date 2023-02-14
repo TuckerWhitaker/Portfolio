@@ -1,0 +1,125 @@
+.ProjectPage {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+.ProjectPageImage {
+	width: 20vw;
+	height: 20vw;
+	background-color: aliceblue;
+	margin: 1vw;
+}
+
+.ProjectPageTitle {
+	margin: 5px;
+	color: white;
+	font-size: 3vw;
+}
+
+.ProjectPageTagParent {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	width: 20vw;
+	height: fit-content;
+	row-gap: 0;
+}
+
+.ProjectPageTag {
+	margin: 5px;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 10px;
+	width: 90%;
+	height: fit-content;
+	color: white;
+	font-size: 1vw;
+}
+
+.ProjectPageColumn {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+.ProjectPageDescription {
+	color: white;
+	font-size: 1vw;
+	padding: 50px;
+}
+
+.ProjectPageBtnParent {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.ProjectPageBtn {
+	width: 40%;
+	height: 5vh;
+	font-size: 1.5vw;
+	margin: 1%;
+	margin-top: 2vh;
+	background-color: white;
+	color: rgb(35, 35, 35, 0.9);
+	border-color: rgb(35, 35, 35, 0.9);
+}
+
+.ProjectPageBtn:hover {
+	background-color: rgb(35, 35, 35, 0.9);
+	color: white;
+	border-color: white;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+	.ProjectPageTagParent {
+		display: grid;
+		justify-content: center;
+		grid-template-columns: auto auto auto;
+		width: 20vw;
+		height: fit-content;
+	}
+
+	.ProjectPageTag {
+		margin: 10px;
+		font-size: 4vw;
+		border-width: 1px;
+	}
+	.ProjectPageImage {
+		width: 75vw;
+		height: 75vw;
+	}
+
+	.ProjectPageTitle {
+		font-size: 10vw;
+	}
+
+	.ProjectPage {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.ProjectPageColumn {
+		width: 100%;
+		align-items: center;
+	}
+
+	.ProjectPageDescription {
+		font-size: 3vw;
+		margin-top: 1vh;
+		padding: 20px;
+	}
+
+	.ProjectPageBtnParent {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+	.ProjectPageBtn {
+		width: 75%;
+		font-size: 5vw;
+		height: auto;
+	}
+}

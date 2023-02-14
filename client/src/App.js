@@ -1,29 +1,22 @@
 import "./App.css";
-import Intro from "./components/intro";
-import Project from "./components/project";
-import Conway from "./components/conway";
-
-/* <div><Intro></Intro>
-			<h1 className="Title">Projects: </h1>
-			<div className="ProjectContainer">
-				<Project />
-				<Project />
-				<Project />
-			</div></div>*/
+import {
+	useParams,
+	BrowserRouter as Router,
+	Routes,
+	Route,
+} from "react-router-dom";
+import MainPage from "./components/MainPage";
+import ProjectPage from "./components/ProjectPage";
 
 function App() {
 	return (
 		<div className="App">
-			<Conway></Conway>
-			<div className="Container">
-				<Intro></Intro>
-				<div className="Title">Projects: </div>
-				<div className="ProjectContainer">
-					<Project />
-					<Project />
-					<Project />
-				</div>
-			</div>
+			<Router>
+				<Routes>
+					<Route path="/" element={<MainPage />} />
+					<Route path="/Project" element={<ProjectPage />} />
+				</Routes>
+			</Router>
 		</div>
 	);
 }
