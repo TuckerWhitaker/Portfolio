@@ -1,36 +1,34 @@
 import "./css/project.css";
+import Projects from "../Projects/Chat.json";
 
-function project() {
+function Project(props) {
+	let Project = Projects.Projects[props.ProjectID];
+	let ProjectTags = Project.Tags;
+
 	return (
 		<div className="project">
 			<div className="Columns">
 				<div className="ImageColumn">
 					<img
-						src="Chat.PNG"
+						src={Project.Image}
 						alt="Italian Trulli"
 						className="ProjectImage"
 					></img>
 
 					<div className="TagContainer">
-						<div className="tag">React</div>
-						<div className="tag">NodeJS</div>
-						<div className="tag">MySQL</div>
-						<div className="tag">Websockets</div>
-						<div className="tag">MongoDB</div>
+						{ProjectTags.map((info, index) => {
+							return (
+								<div className="tag" key={"PT" + index}>
+									{info}
+								</div>
+							);
+						})}
 					</div>
 				</div>
 				<div className="InfoColumn">
-					<div className="ProjectTitle">Title</div>
+					<div className="ProjectTitle">{Project.ProjectName}</div>
 					<div className="ProjectDescription">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-						eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu
-						dictum varius duis at consectetur lorem donec. Ultricies tristique
-						nulla aliquet enim tortor at. Tempus urna et pharetra pharetra. Nunc
-						consequat interdum varius sit amet mattis. Enim neque volutpat ac
-						tincidunt vitae semper quis lectus nulla. Neque viverra justo nec
-						ultrices dui sapien eget mi proin. Ut consequat semper viverra nam
-						libero justo laoreet sit amet. Viverra suspendisse potenti nullam ac
-						tortor vitae purus.
+						{Project.Description[0].Paragraph}
 					</div>
 				</div>
 			</div>
@@ -46,4 +44,4 @@ function project() {
 	);
 }
 
-export default project;
+export default Project;

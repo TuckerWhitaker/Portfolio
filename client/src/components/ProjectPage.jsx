@@ -1,29 +1,42 @@
 import "./css/ProjectPage.css";
+import { useParams } from "react-router-dom";
+import Projects from "../Projects/Chat.json";
 
 function ProjectPage() {
+	let { ProjectID } = useParams();
+	let Project = Projects.Projects[ProjectID];
+	let ProjectTags = Project.Tags;
+
+	console.log(Project.Image);
 	return (
 		<div className="ProjectPage">
 			<div className="ProjectPageColumn">
-				<div className="ProjectPageTitle">Title</div>
-				<img
-					src="Chat.PNG"
-					alt="Italian Trulli"
-					className="ProjectPageImage"
-				></img>
+				<div className="ProjectPageTitle">{Project.ProjectName}</div>
+				<img src={Project.Image} alt="uh oh" className="ProjectPageImage"></img>
 
 				<div className="ProjectPageTagParent">
-					<div className="ProjectPageTag">React</div>
-					<div className="ProjectPageTag">MySQL</div>
-					<div className="ProjectPageTag">Websockets</div>
-					<div className="ProjectPageTag">Other Tags</div>
+					{ProjectTags.map((info, index) => {
+						return (
+							<div className="ProjectPageTag" key={"PPT" + index}>
+								{info}
+							</div>
+						);
+					})}
 				</div>
 
 				<div className="ProjectPageBtnParent">
-					<button className="ProjectPageBtn">Live</button>
 					<button
 						className="ProjectPageBtn"
 						onClick={() => {
-							window.location.href = "https://github.com/TuckerWhitaker/Chat";
+							window.location.href = Project.LiveLink;
+						}}
+					>
+						Live
+					</button>
+					<button
+						className="ProjectPageBtn"
+						onClick={() => {
+							window.location.href = Project.GitHubLink;
 						}}
 					>
 						Github
@@ -32,22 +45,24 @@ function ProjectPage() {
 			</div>
 			<div className="ProjectPageColumn">
 				<div className="ProjectPageDescription">
-					<h2 className="ProjectPageDescriptionTitle">Title</h2>
-					<div className="ProjectPageDescriptionSection">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-						eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque
-						volutpat ac tincidunt vitae semper quis lectus. Et malesuada fames
-						ac turpis. Nibh praesent tristique magna sit amet purus gravida quis
-						blandit. Habitant morbi tristique senectus et netus et.
-					</div>
-					<h2 className="ProjectPageDescriptionTitle">Title</h2>
-					<div className="ProjectPageDescriptionSection">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-						eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque
-						volutpat ac tincidunt vitae semper quis lectus. Et malesuada fames
-						ac turpis. Nibh praesent tristique magna sit amet purus gravida quis
-						blandit. Habitant morbi tristique senectus et netus et.
-					</div>
+					{Project.Description.map((info, index) => {
+						return (
+							<div key={"PPDP" + index}>
+								<h2
+									className="ProjectPageDescriptionTitle"
+									key={"PPDT" + index}
+								>
+									{info.Title}
+								</h2>
+								<div
+									className="ProjectPageDescriptionSection"
+									key={"PPDS" + index}
+								>
+									{info.Paragraph}
+								</div>
+							</div>
+						);
+					})}
 				</div>
 			</div>
 		</div>

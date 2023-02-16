@@ -1,0 +1,58 @@
+{
+	"Projects": [
+		{
+			"ProjectID": 0,
+			"ProjectName": "Chat",
+			"Image": "/Chat.PNG",
+			"Tags": ["React", "MySQL", "Websockets"],
+			"GitHubLink": "https://github.com/TuckerWhitaker/Chat",
+			"LiveLink": "",
+			"Description": [
+				{
+					"Title": "Paragraph 1",
+					"Paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque  volutpat ac tincidunt vitae semper quis lectus. Et malesuada fames ac turpis. Nibh praesent tristique magna sit amet purus gravida quisblandit. Habitant morbi tristique senectus et netus et."
+				},
+				{
+					"Title": "Paragraph 2",
+					"Paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque  volutpat ac tincidunt vitae semper quis lectus. Et malesuada fames ac turpis. Nibh praesent tristique magna sit amet purus gravida quisblandit. Habitant morbi tristique senectus et netus et."
+				}
+			]
+		},
+		{
+			"ProjectID": 1,
+			"ProjectName": "Chat1",
+			"Image": "/Chat.PNG",
+			"Tags": ["React", "MySQL", "Websockets"],
+			"GitHubLink": "https://github.com/TuckerWhitaker/Chat",
+			"LiveLink": "",
+			"Description": [
+				{
+					"Title": "Paragraph 1",
+					"Paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque  volutpat ac tincidunt vitae semper quis lectus. Et malesuada fames ac turpis. Nibh praesent tristique magna sit amet purus gravida quisblandit. Habitant morbi tristique senectus et netus et."
+				},
+				{
+					"Title": "Paragraph 2",
+					"Paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque  volutpat ac tincidunt vitae semper quis lectus. Et malesuada fames ac turpis. Nibh praesent tristique magna sit amet purus gravida quisblandit. Habitant morbi tristique senectus et netus et."
+				}
+			]
+		},
+		{
+			"ProjectID": 2,
+			"ProjectName": "Chat2",
+			"Image": "/Chat.PNG",
+			"Tags": ["React", "MySQL", "Websockets"],
+			"GitHubLink": "https://github.com/TuckerWhitaker/Chat",
+			"LiveLink": "",
+			"Description": [
+				{
+					"Title": "Paragraph 1",
+					"Paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque  volutpat ac tincidunt vitae semper quis lectus. Et malesuada fames ac turpis. Nibh praesent tristique magna sit amet purus gravida quisblandit. Habitant morbi tristique senectus et netus et."
+				},
+				{
+					"Title": "Paragraph 2",
+					"Paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque  volutpat ac tincidunt vitae semper quis lectus. Et malesuada fames ac turpis. Nibh praesent tristique magna sit amet purus gravida quisblandit. Habitant morbi tristique senectus et netus et."
+				}
+			]
+		}
+	]
+}
