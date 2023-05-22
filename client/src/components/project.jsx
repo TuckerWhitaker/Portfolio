@@ -1,5 +1,5 @@
-import "./css/project.css";
 import Projects from "../Projects/Chat.json";
+import "./css/project.css";
 
 function Project(props) {
 	let Project = Projects.Projects[props.ProjectID];
@@ -34,9 +34,16 @@ function Project(props) {
 			</div>
 			<div className="ButtonContainer">
 				<button className="ProjectButton" id="GithubBtn">
-					Github
+					Demo
 				</button>
-				<button className="ProjectButton" id="LiveBtn">
+				<button
+					className="ProjectButton"
+					id="LiveBtn"
+					onClick={() => {
+						window.location.href =
+							"http://localhost:3000/project/" + props.ProjectID;
+					}}
+				>
 					More Info
 				</button>
 			</div>

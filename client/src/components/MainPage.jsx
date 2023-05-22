@@ -1,8 +1,8 @@
-import "./css/MainPage.css";
-import Intro from "./intro";
+import Projects from "../Projects/Chat.json";
 import Project from "./Project";
 import Conway from "./conway";
-import Projects from "../Projects/Chat.json";
+import "./css/MainPage.css";
+import Intro from "./intro";
 
 function MainPage() {
 	let projects = Projects.Projects;
