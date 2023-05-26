@@ -1,0 +1,57 @@
+.test {
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	height: 250vh;
+	background-color: #121212;
+	justify-content: center;
+	font-family: "Roboto", sans-serif;
+}
+
+.testTagsContainer {
+}
+
+.testText {
+	color: #bdbdbd;
+}
+
+.testVideo {
+}
+
+.testColumnContainer {
+	display: flex;
+	justify-content: center;
+}
+
+.testColumn {
+	margin: 10px;
+	width: 40vw;
+	height: fit-content;
+}
+
+.testColumnButton {
+	font-size: larger;
+	width: fit-content;
+	height: 15%;
+	background-color: #ff8731;
+	color: #000000;
+	margin: 5%;
+}
+
+.testColumnTitle {
+	color: #ffffff;
+}
+.testColumnTextContainer {
+	background-color: #1e1e1e;
+}
+.testColumnTextSubTitle {
+	color: #ffffff;
+
+	font-weight: 900;
+	margin-top: 30px;
+	margin-bottom: 2%;
+}
+
+.testColumnText {
+	color: #ffffff;
+}

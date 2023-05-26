@@ -1,12 +1,13 @@
-import "./App.css";
 import {
-	useParams,
+	Route,
 	BrowserRouter as Router,
 	Routes,
-	Route,
+	useParams,
 } from "react-router-dom";
+import "./App.css";
 import MainPage from "./components/MainPage";
 import ProjectPage from "./components/ProjectPage";
+import Test from "./components/Test";
 
 function App() {
 	return (
@@ -14,6 +15,7 @@ function App() {
 			<Router>
 				<Routes>
 					<Route path="/" element={<MainPage />} />
+					<Route path="/test" element={<Test />} />
 					<Route path="/Project/:ProjectID" element={<ProjectPage />} />
 				</Routes>
 			</Router>

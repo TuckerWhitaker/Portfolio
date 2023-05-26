@@ -1,6 +1,5 @@
+import React, { useEffect, useState } from "react";
 import "./css/conway.css";
-import React, { useState } from "react";
-import { useEffect } from "react";
 let w = 100;
 let h = 300;
 let G = 0;
@@ -16,7 +15,7 @@ function Conway() {
 			state.push([]);
 
 			for (let j = 0; j < h; j++) {
-				if (Math.floor(Math.random() * 11) > 8) {
+				if (Math.floor(Math.random() * 11) > 9) {
 					state[i].push(1);
 				} else {
 					state[i].push(0);

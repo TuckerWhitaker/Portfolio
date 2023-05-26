@@ -20,6 +20,7 @@
 			"Description": [
 				{
 					"Title": "Project Description",
+
 					"Paragraph": "This chat application, developed as my first major undertaking, leverages a host of modern technologies, including React, Node.js, WebSockets, and MySQL for seamless user authentication, real-time messaging, and secure password hashing. The project also employed AWS for deployment, all combined to create a robust and responsive web app."
 				},
 				{
