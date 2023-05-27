@@ -9,7 +9,13 @@ function Test() {
 				href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
 				rel="stylesheet"
 			/>
-			<div className="testText">brief description</div>
+			<div className="testText">
+				This chat application, developed as my first major undertaking,
+				leverages a host of modern technologies, including React, Node.js,
+				WebSockets, and MySQL for seamless user authentication, real-time
+				messaging, and secure password hashing. The project also employed AWS
+				for deployment, all combined to create a robust and responsive web app.
+			</div>
 			<div className="testTagsContainer">tags</div>
 			<div className="testVideo">video</div>
 			<div className="testColumnContainer">
