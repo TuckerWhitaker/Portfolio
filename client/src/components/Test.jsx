@@ -9,18 +9,42 @@ function Test() {
 				href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
 				rel="stylesheet"
 			/>
-			<div className="testText">
-				This chat application, developed as my first major undertaking,
-				leverages a host of modern technologies, including React, Node.js,
-				WebSockets, and MySQL for seamless user authentication, real-time
-				messaging, and secure password hashing. The project also employed AWS
-				for deployment, all combined to create a robust and responsive web app.
+			<h1 className="testTitle">Chat App</h1>
+			<div className="testMain">
+				<div className="testText">
+					This chat application, developed as my first major undertaking,
+					leverages a host of modern technologies, including React, Node.js,
+					WebSockets, and MySQL for seamless user authentication, real-time
+					messaging, and secure password hashing. The project also employed AWS
+					for deployment, all combined to create a robust and responsive web
+					app.
+				</div>
+
+				<div className="testVideo">
+					<iframe
+						width="600"
+						height="350"
+						src="https://www.youtube.com/embed/lJIrF4YjHfQ"
+						title="Embed videos and playlists"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
+						allowfullscreen
+					></iframe>
+				</div>
 			</div>
-			<div className="testTagsContainer">tags</div>
-			<div className="testVideo">video</div>
+			<div className="testButtonContainer">
+				<button
+					className="testColumnButton"
+					onClick={() => {
+						window.open("https://github.com/TuckerWhitaker/Chat");
+					}}
+				>
+					Github
+				</button>
+				<button className="testColumnButton">Live</button>
+			</div>
 			<div className="testColumnContainer">
 				<div className="testColumn">
-					<button className="testColumnButton">Github</button>
 					<h3 className="testColumnTitle">Learning Outcomes</h3>
 
 					<div className="testColumnTextContainer">
@@ -45,7 +69,6 @@ function Test() {
 					</div>
 				</div>
 				<div className="testColumn">
-					<button className="testColumnButton">Live</button>
 					<h3 className="testColumnTitle">Challenges and Resolutions</h3>
 
 					<div className="testColumnTextContainer">
