@@ -1,125 +1,130 @@
-.ProjectPage {
-	display: flex;
-	align-items: flex-start;
-	justify-content: flex-start;
-}
-
-.ProjectPageImage {
-	width: 20vw;
-	height: 20vw;
-	background-color: aliceblue;
-	margin: 1vw;
-}
-
-.ProjectPageTitle {
-	margin: 5px;
-	color: white;
-	font-size: 3vw;
-}
-
-.ProjectPageTagParent {
-	display: grid;
-	grid-template-columns: auto auto auto;
-	width: 20vw;
-	height: fit-content;
-	row-gap: 0;
-}
-
-.ProjectPageTag {
-	margin: 5px;
-	border-style: solid;
-	border-width: 2px;
-	border-radius: 10px;
-	width: 90%;
-	height: fit-content;
-	color: white;
-	font-size: 1vw;
-}
-
-.ProjectPageColumn {
+.test {
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
-	justify-content: flex-start;
+	width: 100vw;
+	height: fit-content;
+	background-color: #121212;
+	justify-content: center;
+	font-family: "Roboto", sans-serif;
 }
 
-.ProjectPageDescription {
-	color: white;
-	font-size: 1vw;
-	padding: 50px;
+.testTitle {
+	color: #ffffff;
+}
+.testMain {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: -5%;
+}
+.testTagsContainer {
 }
 
-.ProjectPageBtnParent {
-	width: 100%;
+.testButtonContainer {
+	display: flex;
+	justify-content: right;
+	margin: 3%;
+	padding-right: 10%;
+}
+
+.testText {
+	width: 30%;
+	text-align: left;
+	align-self: center;
+	margin: 5%;
+
+	font-size: 175%;
+	color: #ffffff;
+}
+
+.testVideo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.testColumnContainer {
 	display: flex;
 	justify-content: center;
-	align-items: center;
-}
-.ProjectPageBtn {
-	width: 40%;
-	height: 5vh;
-	font-size: 1.5vw;
-	margin: 1%;
-	margin-top: 2vh;
-	background-color: white;
-	color: rgb(35, 35, 35, 0.9);
-	border-color: rgb(35, 35, 35, 0.9);
 }
 
-.ProjectPageBtn:hover {
-	background-color: rgb(35, 35, 35, 0.9);
-	color: white;
-	border-color: white;
+.testColumn {
+	margin: 10px;
+	width: 40vw;
+	height: fit-content;
+}
+
+.testColumnButton {
+	background-color: transparent;
+	color: #ffffff;
+	border: 2px solid #ff8731;
+	padding: 10px 20px;
+	margin: 1%;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 200%;
+	transition-duration: 0.4s;
+
 	cursor: pointer;
 }
 
-@media only screen and (max-width: 600px) {
-	.ProjectPageTagParent {
-		display: grid;
+.testColumnButton:hover {
+	background-color: #ff8731;
+	color: #121212;
+}
+
+.testColumnTitle {
+	font-size: 200%;
+	color: #ffffff;
+}
+.testColumnTextContainer {
+	border-style: solid;
+	border-image: linear-gradient(45deg, #00000000, #ff8731) 1;
+	background-color: #1e1e1e;
+	padding-bottom: 2%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.testColumnTextSubTitle {
+	color: #ffffff;
+	font-size: 150%;
+	font-weight: 900;
+	margin-top: 30px;
+	margin-bottom: 2%;
+}
+
+.testColumnText {
+	text-align: left;
+	font-size: 125%;
+	color: #ffffff;
+}
+
+@media screen and (max-width: 800px) {
+	/* Your styles go here */
+
+	#YoutubeVideo {
+		width: 70vw;
+		height: 40vw;
+	}
+	.testMain {
+		flex-direction: column;
+	}
+	.testText {
+		width: 70%;
+		font-size: 120%;
+	}
+	.testButtonContainer {
 		justify-content: center;
-		grid-template-columns: auto auto auto;
-		width: 20vw;
-		height: fit-content;
+		margin: 10%;
+		padding-right: 0%;
 	}
-
-	.ProjectPageTag {
+	.testColumnContainer {
+		flex-direction: column;
+		align-items: center;
+	}
+	.testColumn {
 		margin: 10px;
-		font-size: 4vw;
-		border-width: 1px;
-	}
-	.ProjectPageImage {
-		width: 75vw;
-		height: 75vw;
-	}
-
-	.ProjectPageTitle {
-		font-size: 10vw;
-	}
-
-	.ProjectPage {
-		flex-direction: column;
-		align-items: center;
-	}
-
-	.ProjectPageColumn {
-		width: 100%;
-		align-items: center;
-	}
-
-	.ProjectPageDescription {
-		font-size: 3vw;
-		margin-top: 1vh;
-		padding: 20px;
-	}
-
-	.ProjectPageBtnParent {
-		display: flex;
-		align-items: center;
-		flex-direction: column;
-	}
-	.ProjectPageBtn {
-		width: 75%;
-		font-size: 5vw;
-		height: auto;
+		width: 80vw;
 	}
 }
