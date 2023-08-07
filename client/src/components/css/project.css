@@ -1,17 +1,34 @@
 .project {
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
+	align-items: center;
 	justify-content: space-evenly;
-	width: 80%;
+	width: 70%;
 	height: fit-content;
 	margin: 3%;
-	border-color: rgb(101, 101, 101);
+	border-color: transparent;
 	border-width: 0.1vw;
+	border-radius: 16px;
+	padding: 0.5%;
 	border-style: solid;
 	color: white;
-	background-color: #1e1e1e;
+	background-color: #1e1e1e00;
 	transition-duration: 0.5s;
+}
+.project:hover {
+	cursor: pointer;
+	background-color: #212e4f;
+	border-color: #2d3c60;
+	box-shadow: #fbfbfb 5px 5px;
+}
+
+@keyframes blurFade {
+	from {
+		filter: blur(0px);
+	}
+	to {
+		filter: blur(1000px);
+	}
 }
 
 .Columns {
@@ -34,72 +51,36 @@
 }
 
 .ProjectTitle {
-	font-size: 200%;
+	font-size: 1.75vw;
 }
 
 .ProjectImage {
 	width: 100%;
 	height: 50%;
-	border-radius: 0.1vw;
-	border-style: solid;
-	border-color: transparent;
 }
 
 .ProjectDescription {
-	font-size: 80%;
-	margin: 1vh;
+	color: #92a0b6;
+	font-size: 0.8vw;
+	margin: 5%;
 	text-align: left;
-}
-
-.ButtonContainer {
-	display: flex;
-	justify-content: space-evenly;
-	width: 100%;
-	height: 10%;
-}
-
-.ProjectButton {
-	width: 40%;
-	height: 60%;
-	font-size: 90%;
-	margin: 15px;
-	background-color: transparent;
-	color: white;
-	border-style: solid;
-	transition-duration: 500ms;
-}
-
-#GithubBtn {
-	border-color: rgb(205, 24, 255);
-}
-#GithubBtn:hover {
-	cursor: pointer;
-	border-color: rgb(255, 255, 255);
-	background-color: rgb(205, 24, 255);
-}
-
-#LiveBtn {
-	border-color: rgb(255, 25, 0);
-}
-#LiveBtn:hover {
-	cursor: pointer;
-	border-color: rgb(255, 255, 255);
-	background-color: rgb(255, 25, 0);
 }
 
 .TagContainer {
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: start;
 	flex-wrap: wrap;
 }
 .tag {
-	font-size: 90%;
+	border-color: transparent;
+	color: #5adfcb;
+	font-size: 0.8vw;
 	padding: 2%;
 	margin: 1%;
-	background-color: transparent;
+	background-color: #122b39;
 	border-width: 1px;
-	border-radius: 5px;
+	border-radius: 1vw;
 	border-style: solid;
 	width: fit-content;
 }

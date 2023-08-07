@@ -1,14 +1,36 @@
 .MainPage {
+	display: flex;
 	text-align: center;
+	align-items: start;
+	justify-content: center;
 	min-height: 100vh;
 	width: 100vw;
 	height: fit-content;
-	background-color: #121212;
+	background-color: #0e172e;
+	filter: blur(0px);
 }
 
+@keyframes blurFadeOut {
+	from {
+		filter: blur(0);
+	}
+	to {
+		filter: blur(100px);
+	}
+}
+
+.MPColumn {
+	width: 45%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: center;
+}
 .ProjectContainer {
-	display: grid;
-	grid-template-columns: auto auto auto;
+	margin-top: 8%;
+	display: flex;
+	flex-direction: column;
 	row-gap: 0;
 	column-gap: 0;
 }

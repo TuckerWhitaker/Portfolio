@@ -6,16 +6,19 @@ import Intro from "./intro";
 function MainPage() {
 	let projects = Projects.Projects;
 	return (
-		<div className="MainPage">
-			<div className="Container">
+		<div className="MainPage" id="MainPage">
+			<div className="MPColumn">
 				<Intro></Intro>
-				<div className="Title">Projects: </div>
-				<div className="ProjectContainer">
-					{projects.map((info, index) => {
-						return (
-							<Project key={"Project" + index} ProjectID={info.ProjectID} />
-						);
-					})}
+			</div>{" "}
+			<div className="MPColumn">
+				<div className="Container">
+					<div className="ProjectContainer">
+						{projects.map((info, index) => {
+							return (
+								<Project key={"Project" + index} ProjectID={info.ProjectID} />
+							);
+						})}
+					</div>
 				</div>
 			</div>
 		</div>

@@ -6,7 +6,18 @@ function Project(props) {
 	let ProjectTags = Project.Tags;
 
 	return (
-		<div className="project">
+		<div
+			className="project"
+			onClick={() => {
+				document.getElementById("MainPage").style.animation =
+					"blurFadeOut 1000ms forwards";
+
+				setTimeout(() => {
+					window.location.href =
+						"http://localhost:3000/project/" + props.ProjectID;
+				}, 500);
+			}}
+		>
 			<div className="Columns">
 				<div className="ImageColumn">
 					<img
@@ -14,16 +25,6 @@ function Project(props) {
 						alt="Italian Trulli"
 						className="ProjectImage"
 					></img>
-
-					<div className="TagContainer">
-						{ProjectTags.map((info, index) => {
-							return (
-								<div className="tag" key={"PT" + index}>
-									{info}
-								</div>
-							);
-						})}
-					</div>
 				</div>
 				<div className="InfoColumn">
 					<div className="ProjectTitle">{Project.ProjectName}</div>
@@ -32,20 +33,14 @@ function Project(props) {
 					</div>
 				</div>
 			</div>
-			<div className="ButtonContainer">
-				<button className="ProjectButton" id="GithubBtn">
-					Demo
-				</button>
-				<button
-					className="ProjectButton"
-					id="LiveBtn"
-					onClick={() => {
-						window.location.href =
-							"http://localhost:3000/project/" + props.ProjectID;
-					}}
-				>
-					More Info
-				</button>
+			<div className="TagContainer">
+				{ProjectTags.map((info, index) => {
+					return (
+						<div className="tag" key={"PT" + index}>
+							{info}
+						</div>
+					);
+				})}
 			</div>
 		</div>
 	);

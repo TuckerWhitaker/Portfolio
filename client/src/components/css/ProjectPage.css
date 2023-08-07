@@ -3,9 +3,19 @@
 	flex-direction: column;
 	width: 100vw;
 	height: fit-content;
-	background-color: #121212;
+	background-color: #0e172e;
 	justify-content: center;
 	font-family: "Roboto", sans-serif;
+	transition-duration: 100ms;
+	animation: blurFade 1000ms forwards; /* 500ms duration */
+}
+@keyframes blurFade {
+	from {
+		filter: blur(100px);
+	}
+	to {
+		filter: blur(0);
+	}
 }
 
 .testTitle {
@@ -34,7 +44,7 @@
 	margin: 5%;
 
 	font-size: 175%;
-	color: #ffffff;
+	color: #c5cdd9;
 }
 
 .testVideo {
@@ -56,8 +66,9 @@
 
 .testColumnButton {
 	background-color: transparent;
-	color: #ffffff;
-	border: 2px solid #ff8731;
+	color: #5adfcb;
+	border: 1px solid #5adfcb;
+	background-color: #122b39;
 	padding: 10px 20px;
 	margin: 1%;
 	text-align: center;
@@ -70,7 +81,7 @@
 }
 
 .testColumnButton:hover {
-	background-color: #ff8731;
+	background-color: #5adfcb;
 	color: #121212;
 }
 
@@ -79,9 +90,7 @@
 	color: #ffffff;
 }
 .testColumnTextContainer {
-	border-style: solid;
-	border-image: linear-gradient(45deg, #00000000, #ff8731) 1;
-	background-color: #1e1e1e;
+	background-color: #1e1e1e00;
 	padding-bottom: 2%;
 	padding-left: 2%;
 	padding-right: 2%;
@@ -97,12 +106,10 @@
 .testColumnText {
 	text-align: left;
 	font-size: 125%;
-	color: #ffffff;
+	color: #92a0b6;
 }
 
 @media screen and (max-width: 800px) {
-	/* Your styles go here */
-
 	#YoutubeVideo {
 		width: 70vw;
 		height: 40vw;

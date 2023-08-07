@@ -1,14 +1,19 @@
+import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import Description from "../Projects/Project.json";
 import "./css/ProjectPage.css";
 function ProjectPage() {
 	console.log(Description);
-
+	useEffect(() => {
+		setTimeout(() => {
+			document.getElementById("0").style.filter = "blur(0)";
+		}, 1000); // This delay is just for demonstration purposes.
+	}, []);
 	let { ProjectID } = useParams();
 	let Project = Description.Projects[ProjectID];
 
 	return (
-		<div className="test">
+		<div className="test" id="0">
 			<link
 				href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
 				rel="stylesheet"
@@ -39,7 +44,7 @@ function ProjectPage() {
 			</div>
 			<div className="testButtonContainer">
 				<button
-					className="testColumnButton"
+					className="testColumnButton GithubButton"
 					onClick={() => {
 						window.open("https://github.com/TuckerWhitaker/Chat");
 					}}
