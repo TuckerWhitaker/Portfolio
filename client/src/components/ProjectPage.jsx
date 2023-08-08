@@ -7,7 +7,7 @@ function ProjectPage() {
 	useEffect(() => {
 		setTimeout(() => {
 			document.getElementById("0").style.filter = "blur(0)";
-		}, 1000); // This delay is just for demonstration purposes.
+		}, 1000);
 	}, []);
 	let { ProjectID } = useParams();
 	let Project = Description.Projects[ProjectID];
@@ -18,16 +18,9 @@ function ProjectPage() {
 				href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
 				rel="stylesheet"
 			/>
-			<h1 className="testTitle">Chat App</h1>
+			<h1 className="testTitle">{Project.Name}</h1>
 			<div className="testMain">
-				<div className="testText">
-					This chat application, developed as my first major undertaking,
-					leverages a host of modern technologies, including React, Node.js,
-					WebSockets, and MySQL for seamless user authentication, real-time
-					messaging, and secure password hashing. The project also employed AWS
-					for deployment, all combined to create a robust and responsive web
-					app.
-				</div>
+				<div className="testText">{Project.Description}</div>
 
 				<div className="testVideo">
 					<iframe

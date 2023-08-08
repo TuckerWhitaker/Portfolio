@@ -39,7 +39,7 @@
 		},
 		{
 			"ProjectID": 1,
-			"ProjectName": "Chat1",
+			"ProjectName": "Algorithm Visualizer",
 			"Image": "/Chat.PNG",
 			"Tags": ["React", "MySQL", "Websockets"],
 			"GitHubLink": "https://github.com/TuckerWhitaker/Chat",
@@ -57,7 +57,7 @@
 		},
 		{
 			"ProjectID": 2,
-			"ProjectName": "Chat2",
+			"ProjectName": "Store",
 			"Image": "/Chat.PNG",
 			"Tags": ["React", "MySQL", "Websockets"],
 			"GitHubLink": "https://github.com/TuckerWhitaker/Chat",

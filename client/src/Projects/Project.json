@@ -1,6 +1,8 @@
 {
 	"Projects": [
 		{
+			"Name": "Chat",
+			"Description": "This chat application, developed as my first major undertaking, leverages a host of modern technologies, including React, Node.js, WebSockets, and MySQL for seamless user authentication, real-time messaging, and secure password hashing. The project also employed AWS for deployment, all combined to create a robust and responsive web app.",
 			"Column1": {
 				"DescriptionTitles": [
 					"Personal and Professional Development",
@@ -34,7 +36,78 @@
 				]
 			}
 		},
-		0,
-		0
+		{
+			"Name": "Algorithm Visualizer",
+			"Description": "This site offers visual demonstrations of algorithms in action, breaking down the intricacies of Sorting, Search, and Pathfinding algorithms for easy comprehension. By pairing visual elements and animations with real-time code display, users can follow algorithms step by step. Building this project honed my frontend skills, introducing me to innovative techniques and design strategies.",
+			"Column1": {
+				"DescriptionTitles": [
+					"Deep Dive into Frontend Development",
+					"Visual Learning and Algorithm Comprehension",
+					"Real-time Code Display Mechanics",
+					"Innovative Techniques and Strategies",
+					"In-depth Understanding of Algorithms",
+					"Project Design and Execution"
+				],
+				"DescriptionParagraphs": [
+					"Building the Algorithm Visualizer required me to delve deeply into the intricacies of frontend development. This process enriched my skills and pushed the boundaries of what I thought was possible.",
+					"By offering visual demonstrations, I realized the power of visualization in breaking down and understanding complex topics. Watching algorithms in action made them much more digestible and easier to understand for all users.",
+					"One of the standout features was the real-time code display. As the visual representation progressed, the corresponding code was highlighted. This synchronization required careful attention to detail and a profound understanding of both the algorithm's logic and the frontend tools used.",
+					"This project introduced me to a myriad of innovative techniques and design strategies. I had to think outside the box to present information in a way that was both engaging and educational.",
+					"A deep dive into the workings of Sorting, Search, and Pathfinding algorithms was essential. It was crucial to understand not just how they work, but also the rationale behind each step, ensuring that users received a comprehensive learning experience.",
+					"Designing and executing this project from scratch was a valuable learning experience. Every design choice, animation, and interactive element was carefully considered to make the visualizer as informative and user-friendly as possible."
+				]
+			},
+			"Column2": {
+				"DescriptionTitles": [
+					"Visual Integration with Algorithms",
+					"Highlighting Code in Real-time",
+					"Frontend Skills Enhancement",
+					"Design Strategy Implementation"
+				],
+				"DescriptionParagraphs": [
+					"The task of visualizing algorithms required a deep understanding of the logic and flow of each algorithm. Creating an intuitive visual representation that simplifies the algorithm's complexities for users was challenging. I dove deep into the core principles behind each algorithm, ensuring that the animations and visual elements captured the essence of each step.",
+					"One of the pivotal challenges was highlighting code corresponding to the currently executing algorithm step. This required a synchronization between the visual animations and the underlying code. After multiple iterations and testing, I was able to create a seamless interaction where the visual representation matched perfectly with the highlighted code, giving users a comprehensive view of the algorithm's operation.",
+					"Enhancing my frontend skills was paramount to the success of this project. I was introduced to numerous innovative techniques and tools. This process was a learning curve, as I had to familiarize myself with new tools and methodologies, ensure compatibility across browsers, and optimize for performance. This experience greatly bolstered my frontend development capabilities.",
+					"The visual representation of algorithms not only required accurate depiction but also a user-friendly design strategy. Implementing these strategies meant ensuring that users, regardless of their algorithmic background, could grasp the essence of the operations. The design challenge lay in keeping the interface clean, intuitive, and engaging, which I addressed by constantly iterating based on user feedback and best design practices."
+				]
+			}
+		},
+
+		{
+			"Name": "Ecommerce Site",
+			"Description": "Store",
+			"Column1": {
+				"DescriptionTitles": [
+					"Personal and Professional Development",
+					"Importance of Planning",
+					"Version Control with Git and GitHub",
+					"Understanding Linux",
+					"Database Management",
+					"Responsive Web Design"
+				],
+				"DescriptionParagraphs": [
+					"The project represented a significant leap in my personal and professional development, being the first project of such scale that I took on.",
+					"I learned about the importance of effective planning for app features, which significantly streamlined the development phase, reducing back-and-forths and allowing me to build a more cohesive final product.",
+					"Git and GitHub became indispensable tools for source control. Through repeated use, I became adept at tracking changes, collaborating, and managing different versions of the project.",
+					"The application was hosted on a server, requiring me to navigate the intricacies of Linux. Starting with a basic understanding, the practical exposure significantly bolstered my knowledge, allowing me to troubleshoot and configure server settings more effectively.",
+					"The project marked my first foray into databases. I discovered that the principles of data storage, querying, and management are fundamental to backend development. The use of MySQL enabled me to create a robust and efficient data layer for the chat application.",
+					"Designing a responsive web app was another key learning curve. This involved understanding how to make web pages render well on a variety of devices and window or screen sizes, requiring a deep dive into CSS and JavaScript, and gaining an understanding of modern design principles and frameworks."
+				]
+			},
+			"Column2": {
+				"DescriptionTitles": [
+					"Deployment and Nginx",
+					"Server Navigation and Linux Skills",
+					"Databases and MySQL",
+					"Responsive Web App Development"
+				],
+				"DescriptionParagraphs": [
+					"Deploying the chat application was a journey fraught with challenges, particularly when working with Nginx. This was my first experience using Nginx for a production-grade application, and the initial setup was fraught with difficulties. However, with perseverance and an extensive amount of research, I eventually acquired the necessary knowledge to configure it correctly and deploy the application successfully.",
+					"Navigating the server was a challenge due to my basic Linux skills. Through persistence and active learning, I improved my understanding of Linux commands, file systems, and permissions, eventually managing to effectively navigate the server and perform necessary operations.",
+					"Databases, while an essential component of the project, initially presented a steep learning curve. My prior experience with databases was limited, making the setup, configuration, and usage of MySQL a challenge. I faced difficulties with SQL syntax, data modelling, and performance tuning. However, by reading documentation, following tutorials, and hands-on practice, I managed to overcome these hurdles and integrate MySQL effectively into the project.",
+					"Another noteworthy challenge was building a responsive web app. As the chat app was designed to be used on a variety of devices, it was crucial to ensure the layout and functionality worked well across different screen sizes. This involved learning more about CSS, media queries, and flexible layouts, which was initially challenging but ultimately rewarding as the final product became highly adaptable and user-friendly."
+				]
+			}
+		}
 	]
 }

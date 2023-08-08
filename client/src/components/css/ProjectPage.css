@@ -11,10 +11,10 @@
 }
 @keyframes blurFade {
 	from {
-		filter: blur(100px);
+		filter: blur(100px) opacity(0);
 	}
 	to {
-		filter: blur(0);
+		filter: blur(0) opacity(1);
 	}
 }
 
@@ -33,7 +33,7 @@
 .testButtonContainer {
 	display: flex;
 	justify-content: right;
-	margin: 3%;
+	margin: 3vh;
 	padding-right: 10%;
 }
 
