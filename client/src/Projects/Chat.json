@@ -6,6 +6,8 @@
 			"Image": "/Chat.PNG",
 			"Tags": [
 				"React",
+				"Responsive",
+				"Express",
 				"Node.js",
 				"WebSockets",
 				"MySQL",
@@ -41,17 +43,20 @@
 			"ProjectID": 1,
 			"ProjectName": "Algorithm Visualizer",
 			"Image": "/Chat.PNG",
-			"Tags": ["React", "MySQL", "Websockets"],
+			"Tags": [
+				"React",
+				"Git",
+				"Front End",
+				"Responsive",
+				"Algorithms",
+				"Animations"
+			],
 			"GitHubLink": "https://github.com/TuckerWhitaker/Chat",
 			"LiveLink": "",
 			"Description": [
 				{
 					"Title": "Paragraph 1",
-					"Paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque  volutpat ac tincidunt vitae semper quis lectus. Et malesuada fames ac turpis. Nibh praesent tristique magna sit amet purus gravida quisblandit. Habitant morbi tristique senectus et netus et."
-				},
-				{
-					"Title": "Paragraph 2",
-					"Paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque  volutpat ac tincidunt vitae semper quis lectus. Et malesuada fames ac turpis. Nibh praesent tristique magna sit amet purus gravida quisblandit. Habitant morbi tristique senectus et netus et."
+					"Paragraph": "This site offers visual demonstrations of algorithms in action, breaking down the intricacies of Sorting, Search, and Pathfinding algorithms for easy comprehension. By pairing visual elements and animations with real-time code display, users can follow algorithms step by step. Building this project honed my frontend skills, introducing me to innovative techniques and design strategies."
 				}
 			]
 		},
@@ -59,7 +64,7 @@
 			"ProjectID": 2,
 			"ProjectName": "Store",
 			"Image": "/Chat.PNG",
-			"Tags": ["React", "MySQL", "Websockets"],
+			"Tags": ["React", "MongoDB", "Express", "Stripe", "Git", "Node.js"],
 			"GitHubLink": "https://github.com/TuckerWhitaker/Chat",
 			"LiveLink": "",
 			"Description": [

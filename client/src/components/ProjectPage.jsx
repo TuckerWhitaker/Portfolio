@@ -39,7 +39,7 @@ function ProjectPage() {
 				<button
 					className="testColumnButton GithubButton"
 					onClick={() => {
-						window.open("https://github.com/TuckerWhitaker/Chat");
+						window.open(Project.GitHubLink);
 					}}
 				>
 					Github
