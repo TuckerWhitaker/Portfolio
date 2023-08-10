@@ -14,12 +14,22 @@
 	color: white;
 	background-color: #1e1e1e00;
 	transition-duration: 0.5s;
+	animation: fadein 2s ease 1 forwards;
 }
 .project:hover {
 	cursor: pointer;
 	background-color: #212e4f;
 	border-color: #2d3c60;
 	box-shadow: #fbfbfb 5px 5px;
+}
+
+@keyframes fadein {
+	0% {
+		filter: opacity(0) blur(10px);
+	}
+	100% {
+		filter: opacity(1) blur(0);
+	}
 }
 
 @keyframes blurFade {

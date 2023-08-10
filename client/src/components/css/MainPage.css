@@ -11,11 +11,12 @@
 }
 
 @keyframes blurFadeOut {
-	from {
+	0% {
 		filter: blur(0) opacity(1);
 	}
-	to {
-		filter: blur(100px) opacity(0);
+
+	100% {
+		filter: blur(50px) opacity(0);
 	}
 }
 

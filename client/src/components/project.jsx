@@ -10,7 +10,7 @@ function Project(props) {
 			className="project"
 			onClick={() => {
 				document.getElementById("MainPage").style.animation =
-					"blurFadeOut 1000ms forwards";
+					"blurFadeOut 500ms forwards";
 
 				setTimeout(() => {
 					window.location.href =

@@ -11,6 +11,26 @@
 	margin-left: 40%;
 	transition-duration: 0.5s;
 }
+.Container {
+}
+.IntroCover {
+	align-self: flex-end;
+	animation: swipe 3s ease 1 forwards; /* added the 'forwards' value here */
+	background-color: #0e172e;
+	width: 25vw;
+	margin-right: -0.5vw;
+	height: 20vh;
+	margin-top: -20vh;
+}
+
+@keyframes swipe {
+	0% {
+		width: 25vw;
+	}
+	100% {
+		width: 0vw;
+	}
+}
 
 .IntroTitle {
 	margin-bottom: 2%;
