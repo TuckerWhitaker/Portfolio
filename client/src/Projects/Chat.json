@@ -42,7 +42,7 @@
 		{
 			"ProjectID": 1,
 			"ProjectName": "Algorithm Visualizer",
-			"Image": "/Chat.PNG",
+			"Image": "/AlgoVis.PNG",
 			"Tags": [
 				"React",
 				"Git",
@@ -64,13 +64,22 @@
 			"ProjectID": 2,
 			"ProjectName": "Store",
 			"Image": "/Chat.PNG",
-			"Tags": ["React", "MongoDB", "Express", "Stripe", "Git", "Node.js"],
+			"Tags": [
+				"React",
+				"MongoDB",
+				"Express",
+				"Stripe",
+				"Git",
+				"Node.js",
+				"WebSockets",
+				"Responsive"
+			],
 			"GitHubLink": "https://github.com/TuckerWhitaker/Chat",
 			"LiveLink": "",
 			"Description": [
 				{
 					"Title": "Paragraph 1",
-					"Paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque  volutpat ac tincidunt vitae semper quis lectus. Et malesuada fames ac turpis. Nibh praesent tristique magna sit amet purus gravida quisblandit. Habitant morbi tristique senectus et netus et."
+					"Paragraph": "This e-commerce site utilizes React's dynamic frontend and Stripe's secure payment processing, supported by MongoDB's efficient data storage for diverse products and user profiles. This blend enhances both user experience and backend operations, underscoring my insights into full-stack development and the synergy of aesthetics and functionality."
 				},
 				{
 					"Title": "Paragraph 2",

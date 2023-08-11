@@ -77,37 +77,38 @@
 
 		{
 			"Name": "Ecommerce Site",
-			"Description": "Store",
+			"Description": "This e-commerce site utilizes React's dynamic frontend and Stripe's secure payment processing, supported by MongoDB's efficient data storage for diverse products and user profiles. This blend enhances both user experience and backend operations, underscoring my insights into full-stack development and the synergy of aesthetics and functionality.",
+			"GitHubLink": "https://github.com/TuckerWhitaker/Store",
 			"Column1": {
 				"DescriptionTitles": [
 					"Personal and Professional Development",
-					"Importance of Planning",
+					"Full-stack Development Mastery",
 					"Version Control with Git and GitHub",
-					"Understanding Linux",
-					"Database Management",
-					"Responsive Web Design"
+					"Utilizing MongoDB for Efficient Data Storage",
+					"Responsive Web Design with React",
+					"Secure Payment Processing with Stripe"
 				],
 				"DescriptionParagraphs": [
-					"The project represented a significant leap in my personal and professional development, being the first project of such scale that I took on.",
-					"I learned about the importance of effective planning for app features, which significantly streamlined the development phase, reducing back-and-forths and allowing me to build a more cohesive final product.",
+					"The project represented a significant leap in my personal and professional development, showcasing my capacity to handle complex, multi-layered projects that cater to both frontend and backend requirements.",
+					"Through this e-commerce site, I gained comprehensive insights into full-stack development, demonstrating the synergy of aesthetics and functionality. My ability to integrate various technologies and platforms testifies to my holistic approach in creating seamless digital solutions.",
 					"Git and GitHub became indispensable tools for source control. Through repeated use, I became adept at tracking changes, collaborating, and managing different versions of the project.",
-					"The application was hosted on a server, requiring me to navigate the intricacies of Linux. Starting with a basic understanding, the practical exposure significantly bolstered my knowledge, allowing me to troubleshoot and configure server settings more effectively.",
-					"The project marked my first foray into databases. I discovered that the principles of data storage, querying, and management are fundamental to backend development. The use of MySQL enabled me to create a robust and efficient data layer for the chat application.",
-					"Designing a responsive web app was another key learning curve. This involved understanding how to make web pages render well on a variety of devices and window or screen sizes, requiring a deep dive into CSS and JavaScript, and gaining an understanding of modern design principles and frameworks."
+					"The project's use of MongoDB marked my proficiency in efficiently storing diverse products and user profiles. Understanding and implementing MongoDB's robust features allowed me to set up a scalable and efficient backend data structure, optimizing the site's overall performance.",
+					"Leveraging React's dynamic frontend capabilities was a cornerstone of the project. By diving deep into React, I ensured a smooth and responsive user experience, making the site adaptable to various devices and screen sizes.",
+					"Integrating Stripe for payment processing was crucial for the e-commerce platform's success. This not only enhanced the user experience by providing a secure and efficient payment gateway but also underscored my expertise in integrating third-party services into my development projects."
 				]
 			},
 			"Column2": {
 				"DescriptionTitles": [
-					"Deployment and Nginx",
-					"Server Navigation and Linux Skills",
-					"Databases and MySQL",
+					"React's Dynamic Frontend Integration",
+					"Stripe Payment Processing",
+					"MongoDB Data Storage Implementation",
 					"Responsive Web App Development"
 				],
 				"DescriptionParagraphs": [
-					"Deploying the chat application was a journey fraught with challenges, particularly when working with Nginx. This was my first experience using Nginx for a production-grade application, and the initial setup was fraught with difficulties. However, with perseverance and an extensive amount of research, I eventually acquired the necessary knowledge to configure it correctly and deploy the application successfully.",
-					"Navigating the server was a challenge due to my basic Linux skills. Through persistence and active learning, I improved my understanding of Linux commands, file systems, and permissions, eventually managing to effectively navigate the server and perform necessary operations.",
-					"Databases, while an essential component of the project, initially presented a steep learning curve. My prior experience with databases was limited, making the setup, configuration, and usage of MySQL a challenge. I faced difficulties with SQL syntax, data modelling, and performance tuning. However, by reading documentation, following tutorials, and hands-on practice, I managed to overcome these hurdles and integrate MySQL effectively into the project.",
-					"Another noteworthy challenge was building a responsive web app. As the chat app was designed to be used on a variety of devices, it was crucial to ensure the layout and functionality worked well across different screen sizes. This involved learning more about CSS, media queries, and flexible layouts, which was initially challenging but ultimately rewarding as the final product became highly adaptable and user-friendly."
+					"Integrating a dynamic frontend using React presented several challenges. Ensuring seamless state management and effective rendering of components was paramount. Through diligent debugging and leveraging React's vast ecosystem, I managed to achieve a smooth, dynamic interface that enhances the user experience.",
+					"Implementing Stripe for secure payment processing was a crucial aspect of the project. Understanding Stripe's API and ensuring a secure environment for transactional data was initially challenging. However, by diving deep into Stripe's documentation and consulting their community, I successfully integrated it, ensuring a seamless and secure transaction for users.",
+					"MongoDB, with its flexible schema and scalability features, was chosen as the database for the e-commerce site. The challenges included setting up efficient data models, handling complex queries, and ensuring data integrity. By utilizing MongoDB's extensive documentation and tools, I overcame these challenges, ensuring a robust backend storage for products and user profiles.",
+					"Developing a responsive web application was essential given the diversity of devices users might access the site from. Making the e-commerce site adaptable and visually appealing across various screen sizes was a challenge. With a deeper understanding of CSS, media queries, and modern frontend frameworks, I achieved a responsive design that caters to a broad range of devices, enhancing overall user accessibility."
 				]
 			}
 		}
