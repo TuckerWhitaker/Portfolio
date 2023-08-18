@@ -6,9 +6,17 @@ function ProjectPage() {
 	console.log(Description);
 	useEffect(() => {
 		setTimeout(() => {
+			console.log(Project.Live);
+			if (!Project.Live) {
+				document.getElementById("LiveButton").remove();
+			}
+		}, 10);
+
+		setTimeout(() => {
 			document.getElementById("0").style.filter = "blur(0)";
 		}, 1000);
 	}, []);
+
 	let { ProjectID } = useParams();
 	let Project = Description.Projects[ProjectID];
 
@@ -44,7 +52,9 @@ function ProjectPage() {
 				>
 					Github
 				</button>
-				<button className="testColumnButton">Live</button>
+				<button className="testColumnButton" id="LiveButton">
+					Live
+				</button>
 			</div>
 			<div className="testColumnContainer">
 				<div className="testColumn">

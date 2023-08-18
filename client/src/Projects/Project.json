@@ -4,6 +4,7 @@
 			"Name": "Chat",
 			"Description": "This chat application, developed as my first major undertaking, leverages a host of modern technologies, including React, Node.js, WebSockets, and MySQL for seamless user authentication, real-time messaging, and secure password hashing. The project also employed AWS for deployment, all combined to create a robust and responsive web app.",
 			"GitHubLink": "https://github.com/TuckerWhitaker/Chat",
+			"Live": false,
 			"Column1": {
 				"DescriptionTitles": [
 					"Personal and Professional Development",
@@ -41,6 +42,7 @@
 			"Name": "Algorithm Visualizer",
 			"Description": "This site offers visual demonstrations of algorithms in action, breaking down the intricacies of Sorting, Search, and Pathfinding algorithms for easy comprehension. By pairing visual elements and animations with real-time code display, users can follow algorithms step by step. Building this project honed my frontend skills, introducing me to innovative techniques and design strategies.",
 			"GitHubLink": "https://github.com/TuckerWhitaker/AlgorithmVisualizer",
+			"Live": true,
 			"Column1": {
 				"DescriptionTitles": [
 					"Deep Dive into Frontend Development",
@@ -79,6 +81,7 @@
 			"Name": "Ecommerce Site",
 			"Description": "This e-commerce site utilizes React's dynamic frontend and Stripe's secure payment processing, supported by MongoDB's efficient data storage for diverse products and user profiles. This blend enhances both user experience and backend operations, underscoring my insights into full-stack development and the synergy of aesthetics and functionality.",
 			"GitHubLink": "https://github.com/TuckerWhitaker/Store",
+			"Live": false,
 			"Column1": {
 				"DescriptionTitles": [
 					"Personal and Professional Development",

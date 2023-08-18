@@ -19,6 +19,7 @@
 			],
 			"GitHubLink": "https://github.com/TuckerWhitaker/Chat",
 			"LiveLink": "",
+			"Live": false,
 			"Description": [
 				{
 					"Title": "Project Description",
@@ -53,6 +54,7 @@
 			],
 			"GitHubLink": "https://github.com/TuckerWhitaker/Chat",
 			"LiveLink": "",
+			"Live": true,
 			"Description": [
 				{
 					"Title": "Paragraph 1",
@@ -63,7 +65,7 @@
 		{
 			"ProjectID": 2,
 			"ProjectName": "Store",
-			"Image": "/Chat.PNG",
+			"Image": "/Store.PNG",
 			"Tags": [
 				"React",
 				"MongoDB",
@@ -76,6 +78,7 @@
 			],
 			"GitHubLink": "https://github.com/TuckerWhitaker/Chat",
 			"LiveLink": "",
+			"Live": false,
 			"Description": [
 				{
 					"Title": "Paragraph 1",
