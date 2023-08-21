@@ -33,12 +33,15 @@
 }
 
 .IntroTitle {
+	align-self: flex-start;
 	margin-bottom: 2%;
 	font-size: 2.5vw;
 	font-weight: 700;
 }
 
 .Summary {
+	margin-left: 0.4%;
+	align-self: flex-start;
 	color: #92a0b6;
 	margin-top: 1vh;
 	font-size: 1vw;

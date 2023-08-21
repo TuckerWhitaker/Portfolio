@@ -35,7 +35,7 @@ function ProjectPage() {
 						id="YoutubeVideo"
 						width="600"
 						height="350"
-						src="https://www.youtube.com/embed/lJIrF4YjHfQ"
+						src={Project.VideoLink}
 						title="Embed videos and playlists"
 						frameborder="0"
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
