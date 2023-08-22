@@ -2,6 +2,56 @@
 	"Projects": [
 		{
 			"ProjectID": 0,
+			"ProjectName": "Algorithm Visualizer",
+			"Image": "/AlgoVis.PNG",
+			"Tags": [
+				"React",
+				"Git",
+				"Front End",
+				"Responsive",
+				"Algorithms",
+				"Animations"
+			],
+			"GitHubLink": "https://github.com/TuckerWhitaker/Chat",
+			"LiveLink": "",
+			"Live": true,
+			"Description": [
+				{
+					"Title": "Paragraph 1",
+					"Paragraph": "This site offers visual demonstrations of algorithms in action, breaking down the intricacies of Sorting, Search, and Pathfinding algorithms for easy comprehension. By pairing visual elements and animations with real-time code display, users can follow algorithms step by step. Building this project honed my frontend skills, introducing me to innovative techniques and design strategies."
+				}
+			]
+		},
+		{
+			"ProjectID": 1,
+			"ProjectName": "Store",
+			"Image": "/Store.PNG",
+			"Tags": [
+				"React",
+				"MongoDB",
+				"Express",
+				"Stripe",
+				"Git",
+				"Node.js",
+				"WebSockets",
+				"Responsive"
+			],
+			"GitHubLink": "https://github.com/TuckerWhitaker/Chat",
+			"LiveLink": "",
+			"Live": false,
+			"Description": [
+				{
+					"Title": "Paragraph 1",
+					"Paragraph": "This e-commerce site utilizes React's dynamic frontend and Stripe's secure payment processing, supported by MongoDB's efficient data storage for diverse products and user profiles. This blend enhances both user experience and backend operations, underscoring my insights into full-stack development and the synergy of aesthetics and functionality."
+				},
+				{
+					"Title": "Paragraph 2",
+					"Paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque  volutpat ac tincidunt vitae semper quis lectus. Et malesuada fames ac turpis. Nibh praesent tristique magna sit amet purus gravida quisblandit. Habitant morbi tristique senectus et netus et."
+				}
+			]
+		},
+		{
+			"ProjectID": 2,
 			"ProjectName": "Chat",
 			"Image": "/Chat.PNG",
 			"Tags": [
@@ -37,56 +87,6 @@
 				{
 					"Title": "Future Plans",
 					"Paragraph": "Looking ahead, the chat app will continue to evolve with potential enhancements on the horizon. Future improvements may include the introduction of group chats, support for multimedia messaging (like images), and potentially voice or video functionalities, all aimed at refining the user experience and expanding the application's capabilities."
-				}
-			]
-		},
-		{
-			"ProjectID": 1,
-			"ProjectName": "Algorithm Visualizer",
-			"Image": "/AlgoVis.PNG",
-			"Tags": [
-				"React",
-				"Git",
-				"Front End",
-				"Responsive",
-				"Algorithms",
-				"Animations"
-			],
-			"GitHubLink": "https://github.com/TuckerWhitaker/Chat",
-			"LiveLink": "",
-			"Live": true,
-			"Description": [
-				{
-					"Title": "Paragraph 1",
-					"Paragraph": "This site offers visual demonstrations of algorithms in action, breaking down the intricacies of Sorting, Search, and Pathfinding algorithms for easy comprehension. By pairing visual elements and animations with real-time code display, users can follow algorithms step by step. Building this project honed my frontend skills, introducing me to innovative techniques and design strategies."
-				}
-			]
-		},
-		{
-			"ProjectID": 2,
-			"ProjectName": "Store",
-			"Image": "/Store.PNG",
-			"Tags": [
-				"React",
-				"MongoDB",
-				"Express",
-				"Stripe",
-				"Git",
-				"Node.js",
-				"WebSockets",
-				"Responsive"
-			],
-			"GitHubLink": "https://github.com/TuckerWhitaker/Chat",
-			"LiveLink": "",
-			"Live": false,
-			"Description": [
-				{
-					"Title": "Paragraph 1",
-					"Paragraph": "This e-commerce site utilizes React's dynamic frontend and Stripe's secure payment processing, supported by MongoDB's efficient data storage for diverse products and user profiles. This blend enhances both user experience and backend operations, underscoring my insights into full-stack development and the synergy of aesthetics and functionality."
-				},
-				{
-					"Title": "Paragraph 2",
-					"Paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque  volutpat ac tincidunt vitae semper quis lectus. Et malesuada fames ac turpis. Nibh praesent tristique magna sit amet purus gravida quisblandit. Habitant morbi tristique senectus et netus et."
 				}
 			]
 		}
