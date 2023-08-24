@@ -4,7 +4,8 @@
 	align-items: start;
 	justify-content: center;
 	min-height: 100vh;
-	height: fit-content;
+	height: 100vh;
+	overflow-y: hidden;
 	width: 100vw;
 	background-color: #0e172e;
 	filter: blur(0px);
@@ -20,26 +21,48 @@
 	}
 }
 
+@keyframes Links {
+	0% {
+		filter: opacity(0);
+	}
+	30% {
+		filter: opacity(0);
+	}
+	100% {
+		filter: opacity(1);
+	}
+}
+.LinkContainer {
+	animation: Links 5s ease 1 forwards; /* added the 'forwards' value here */
+	text-align: left;
+	color: white;
+	position: fixed;
+	top: 90%;
+	left: 10%;
+}
+.GitHubLogo {
+	width: 15%;
+}
+.GitHubLogo:hover {
+	cursor: pointer;
+}
 .MPColumn {
-	width: 45%;
-	height: 100%;
+	overflow-y: auto;
+	width: 100%;
+	height: 100vh;
 	display: flex;
 	flex-direction: column;
 	align-items: start;
 	justify-content: center;
 }
 .ProjectContainer {
-	margin-top: 8%;
+	width: 50%;
+	margin-left: 50%;
+	margin-top: 30%;
 	display: flex;
 	flex-direction: column;
 	row-gap: 0;
 	column-gap: 0;
-}
-
-.Container {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
 }
 
 .Title {
@@ -54,10 +77,34 @@
 	border-radius: 8px;
 }
 
-@media screen and (max-width: 800px) {
-	.ProjectContainer {
+@media screen and (max-width: 900px) {
+	.MPColumn {
+		margin-top: 35%;
 		display: flex;
 		align-items: center;
+		justify-content: start;
+	}
+	.ProjectContainer {
+		margin-top: 0%;
+		height: 100%;
+		width: 100%;
+		margin-left: 0%;
+		display: flex;
+		align-items: center;
+		justify-content: end;
 		flex-direction: column;
+	}
+	.Container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 50%;
+	}
+
+	.LinkContainer {
+		text-align: left;
+		color: white;
+		position: fixed;
+		top: 5%;
 	}
 }

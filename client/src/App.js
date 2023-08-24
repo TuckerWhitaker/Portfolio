@@ -8,6 +8,7 @@ import "./App.css";
 
 import MainPage from "./components/MainPage";
 import ProjectPage from "./components/ProjectPage";
+
 function App() {
 	return (
 		<div className="App">

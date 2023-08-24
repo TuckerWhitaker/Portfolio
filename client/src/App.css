@@ -2,6 +2,7 @@
 	text-align: center;
 	width: 100vw;
 	min-height: 100vh;
-	height: 150vh;
+	height: 100vh;
 	background-color: #0e172e;
+	overflow-x: hidden;
 }
